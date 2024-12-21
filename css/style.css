@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Inter", sans-serif;
+
+}
+a, a :hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul , ol {
+    list-style-type: none;
+
+}
+h1,h2.h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0,8;   
+}
+/* <!-- Header Part S --> */
+.navbar{
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+.nav-link {
+	color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 15px;
+}
+.nav-link:hover{
+    color:#4756DF
+}
+.Contactbtn{ 
+    padding: 15px 42px;
+    background: #6A4DF4;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+/* <!-- Header Part E --> */
+
+
+/* <!-- banner Part S --> */
+#bannerpart{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banneroverly {
+    background: rgba(0, 0, 0, 0.62);
+    padding-top: 330px;
+    padding-bottom:175px ;
+
+}
+.bannercontent h1{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 120%;
+    padding-bottom: 60px;
+}
+.bannercontent p{
+    font-size: 16px;
+    font-weight: 400px;
+    padding: 0px 150px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+.bannercontent a{
+    font-size: 16px ;
+    font-weight: 600px ;
+    padding: 20px 45px ;
+    background: #6A4DF4;
+    color: white;
+    border-radius: 10px;
+}
+/* <!-- banner Part E --> */
+
+/* <!-- counter Part S --> */
+#counterpart{
+    padding-top:165px;
+    padding-bottom:80px;
+}
+.counterbg{
+    background: #E0FFF9;
+    padding: 85px 0;
+    padding-left: 20px;
+}
+.counterleft h4{
+    font-size: 25px;
+    font-weight: 500;
+    color: #6A4DF4;
+}
+.counterleft h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: #151515;
+    padding-right: 127px;
+}
+.counteritem h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: #151515;
+}
+.counteritem p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #737373;
+    
+}
+/* <!-- counter Part E --> */
+
+/* <!-- Services Part S --> */
+ #Serviceprt{
+    padding:100px 0 ;
+ }
+ .servicehead h3{
+    font-size:45px ;
+    font-weight:700 ;
+    color: #151515;
+ }
+
+ .servicehead p{
+    font-size:16px ;
+    font-weight:400 ;
+    color:#737373 ;
+    padding-bottom:20px;
+    line-height: 26px;
+ }
+ .servicehead{
+    padding: 0 30px;
+ }
+ .Serviceitem{
+    transition: .4s;
+    padding: 45px;
+ }
+ .Servicetext h3{
+    font-size:25px ;
+    font-weight:700 ;
+    color: #151515;
+    padding-top:10px;
+    padding-bottom:15px;
+ }
+ .Servicetext p{
+    font-size:16px;
+    font-weight:400 ;
+    color: #737373;
+    line-height: 26px;
+ }
+ .Serviceitem:hover{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+ }
+/* <!-- Services Part E --> */
+
+/* <!-- Work Part S --> */
+.workhead{
+    padding-bottom: 100px;
+ 
+}
+.workhead h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+}
+.workhead p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+}
+.worktext{
+    padding: 45px 40px;
+    border-radius: 20px;
+    border-radius: 20px;
+    line-height: 26px;
+   
+}
+.workitem img{
+    border-radius: 20px;
+    width: 100%;
+}
+.workitem{
+    border-radius: 20px;
+}
+#workpart{
+
+    padding: 100px 0;
+    background-color: #F3F3F3;
+}
+.worktext h5{
+    font-size:20px ;
+    font-weight: 700 ;
+    color:#151515 ;
+}
+.worktext p{
+    font-size:16px ;
+    font-weight: 400;
+    color: #737373 ;
+}
+.workitem{
+     background: #FFFFFF;
+
+}
+
+/* <!-- Work Part E --> */
+
+/* <!-- Agenc Part S --> */
+.agenchead{
+   padding: 100px 0px ;
+    
+}
+.agenchead h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    padding: 0px 220px;
+}
+.agenchead p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    padding: 20px 20px;
+    line-height: 26px;
+}
+
+.agencitem h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    }
+.agencitem p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+}
+.agencpic img{
+   width: 100%;
+}
+.agencpic{
+    padding-bottom: 100px;
+}
+/* <!-- Agenc Part E --> */
+
+/* <!-- review Part S --> */
+#reviewpart{
+    padding: 100px 0 ;
+
+}
+.reviewhead h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+}
+.reviewhead p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    padding-bottom: 50px;
+}
+.reviewitem i{
+    font-size: 80px;
+}
+.reviewitem{
+    padding: 50px ;
+}
+span {
+    color:#F9BD2C ;
+}
+.reviewitem:hover{
+    border-radius: 20px;
+   background: #F4EFEF;
+}
+ 
+.reviewitem:hover i{
+  color: #6A4DF4;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ 
+/* <!-- review Part E --> */
+
+/* <!-- contact Part S --> */
+#contactpart{
+   margin-top: 100px;
+   padding: 100px;
+    background: #F3F3F3;  
+}
+.conleft h3{
+    font-size: 45px;
+    font-weight: 700px;
+    color: #151515;
+    padding-bottom: 10px;
+    padding-right: 100px;
+}
+.conleft p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #151515;
+    
+    line-height: 26px;
+}
+.contactF{
+    padding: 70px;
+    background: #FFFFFF;
+    border-radius:20px ;
+}
+.contactF h3{
+    font-size: 30px;
+    font-weight: 700px;
+    color: #151515;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.contactF label{
+  font-size: 16px;
+  font-weight: 500px;
+  color: #151515;
+}
+.mybtn{
+ color: #fff;
+background: #6A4DF4;
+font-size: 18px;
+font-weight: 500px;
+width: 100%;
+}
+.myinput{
+padding: 15px;
+}
+/* <!-- contact Part E --> */
+
+/* <!- last part Part S --> */
+#aboutpart{
+    padding: 150px 0;
+}
+.about{
+    padding: 20px;
+}
+.about p{
+   font-size: 16px;
+   font-weight: 400;
+   color: #7B7B7B;
+   line-height: 26px;
+}
+.atext h3{
+    font-size: 20px;
+   font-weight: 600;
+   color: #151515;
+   padding: 20px 0;
+   
+}
+.atext p{
+    font-size: 16px;
+   font-weight: 400;
+   color: #7B7B7B;
+}
+/* <!-- last Part E --> */
+
+/* <!-- Header Part S --> */
+/* <!-- Header Part E --> */
